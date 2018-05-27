@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html style="zoom: 1">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+  <title>DVDpro</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+
+  <style>
+    .youtubeWrap {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%;
+    }
+    .youtubeWrap iframe {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <div class="blue lighten-5">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 l2">
+        </div>
+
+        <div class="col s12 l8">
+          <br><br>
+          <div class="card horizontal">
+            <div class="card-image">
+              <img height="260" width="150" src="img/me.jpg">
+            </div>
+            <div class="card-stacked">
+              <div class="card-content">
+                <span style="font-weight:bold">이름 :</span> 김민성<br>
+                <span style="font-weight:bold">나이 :</span> 23<br>
+                <span style="font-weight:bold">이메일 :</span> iwantee157@gmail.com<br>
+
+                <!-- <span style="font-weight:bold">Master's Degree :</span> KOREA University Robotics<br> -->
+                <span style="font-weight:bold">관심분야 :</span> SNS비디오 및 뮤직비디오 제작<br>
+                <span style="font-weight:bold">취미 :</span> 영화<br>
+                <span style="font-weight:bold">교내활동 :</span> 사진동아리 "아람" 38기 회장<br>
+                <span style="font-weight:bold">운영하는 SNS :</span>
+                <br>Youtube: Sherlotics(외국채널)
+                <a href="https://github.com/minbaekkim">LINK</a>
+                 / 셜로틱스(한국채널)
+                <a href="https://github.com/minbaekkim">LINK</a>
+                <br>Facebook: Sherlotics 셜로틱스
+                <a href="https://github.com/minbaekkim">LINK</a>
+                <br>인스타그램: Sherlotics 셜로틱스
+                <a href="https://github.com/minbaekkim">LINK</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+    </div>
+  </div>
+
+  <!--                           project                             -->
+
+
+  <div class="container">
+    <br>
+    <span style="font-size:2.5em; font-weight:bold">Video Projects</span><br><br>
+
+    <div class="row">
+      <div class="col l6 s12">
+        <br><span style="font-size:1.2em"><u>2017 R-BIZ Challenge Turtlebot3 오토레이스</u></span><br><br>
+
+        <!--
+        <br><span style="font-size:0.9em">
+
+        description
+
+        </span><br><br>
+        -->
+
+        <div class="youtubeWrap">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/extzYBgQdGs" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <br><span style="font-size:1.2em"><u>2017국제대학생창작자동차경진대회</u></span><br><br>
+
+        <div class="youtubeWrap">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Zr7umk_rSIY" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <br><span style="font-size:1.2em"><u>2016신비차경진대회</u></span><br><br>
+
+        <div class="youtubeWrap">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/9w7o3VyKKVg" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <br>
+      </div>
+
+      <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+
+      <div class="col l6 s12">
+
+
+        <br><span style="font-size:1.2em"><u>KUT Maple 솔루션 사이트 제작</u></span><br><br>
+
+        <div class="youtubeWrap">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/mK-msZjBlik" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <br><span style="font-size:1.2em"><u>Likelion in KUT 홈페이지 제작</u></span><br><br>
+
+        <div class="youtubeWrap">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/vYo23fi4NcQ" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <footer class="page-footer blue lighten-1">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">김민성</h5>
+          <p class="grey-text text-lighten-4">Video Artist`s portfolio</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">연락처</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">iwantee157@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      © 2018 Copyright DVDpro
+
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
